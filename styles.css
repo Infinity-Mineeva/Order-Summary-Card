@@ -1,0 +1,240 @@
+/*======================
+    VARIABLES STYLES
+=======================*/
+
+:root {
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --vpBlue: hsl(225, 100%, 98%);
+  --desatBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+  --midWeight: 500;
+  --heavyWeight: 700;
+  --vHeavyWeight: 900;
+}
+
+
+/*======================
+    GLOBAL STYLES
+=======================*/
+
+*::after,
+*::before,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-border: border-box;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+a {
+  font-weight: var(--heavyWeight);
+}
+
+a:hover {
+  cursor: hand;
+}
+
+/*======================
+    BODY STYLES
+=======================*/
+
+body {
+  height: 100vh;
+  background: url("./images/pattern-background-mobile.svg") no-repeat, var(--paleBlue);
+  background-size: contain;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-card {
+  width: 330px;
+  height: 570px;
+  align-self: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.order-summary {
+  height: 418px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.2em;
+  text-align: center;
+}
+
+.hero-image {
+  height: 160px;
+  background-color: var(--darkBlue);
+  background: url("./images/illustration-hero.svg");
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+}
+.order-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order-header {
+  font-weight: var(--vHeavyWeight);
+}
+
+.order-blurb {
+  color: var(--desatBlue);
+  width: 270px;
+  line-height: 1.5em;
+  margin-top: 0;
+}
+
+.order-items {
+  display: flex;
+  padding: 0.4em 1em;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--vpBlue);
+  border-radius: 15px;
+}
+
+.music-icon {
+  padding: 0 .5em;
+}
+
+.plan{
+  flex-grow: 2;
+  text-align: left;
+  margin-left: .5em;
+  font-size: .9rem;
+}
+
+.plan-name,
+.plan-price {
+  margin: 0.5em;
+}
+
+.plan-name {
+  font-weight: var(--heavyWeight);
+}
+
+.plan-price {
+  color: var(--desatBlue);
+}
+.change-order{
+padding-right: 1em;
+}
+.change-order:hover{
+  text-decoration: none;
+  color: #786EF1;
+}
+
+.button-container {
+  margin-top: 2em;
+}
+
+.button-container a {
+  display: block;
+  text-decoration: none;
+}
+
+.pay-btn {
+  background-color: var(--brightBlue);
+  color: white;
+  padding: 1em 0;
+  border-radius: 15px;
+  transition: background-color .4s;
+}
+
+.pay-btn:hover{
+  background-color: #786EF1;
+}
+
+
+.cancel-order {
+    color: var(--desatBlue);
+    margin-top: 2em;
+}
+
+/*=====================
+    ATTRIBUTION STYLES
+=======================*/
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*======================
+    MEDIA QUERIES
+=======================*/
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    height: 100vh;
+    background: url("./images/pattern-background-desktop.svg") no-repeat, var(--paleBlue);
+    background-size: contain;
+  }
+  
+
+
+
+  .order-card{
+    width: 450px;
+  height: 697px;
+  
+  }
+
+  .hero-image {
+    height: 221px;
+
+  }
+
+  .order-summary {
+
+    width: 384px;
+    justify-content: center;
+    margin: 2em auto 1em auto;
+  }
+
+  .order-header{
+    font-size: 1.8rem;
+  }
+
+  .order-blurb{
+    width: 295px;
+  }
+
+  .order-items, .button-container{
+    width: 357px;
+  }
+
+  .order-items {
+    width: 300px;
+    height: 90px;
+  padding: 0.4em 1em;
+  margin: 0 auto;
+  justify-content: space-between;
+  }
+
+  .plan{
+    font-size: 1rem;
+    
+  }
+
+  .button-container {
+    margin: 2em auto 0 auto;
+  }
+}
