@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-card-html-css-css-flexbox-GjoNIsxSS](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-card-html-css-css-flexbox-GjoNIsxSS)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-card-html-css-css-flexbox-GjoNIsxSS](https://www.frontendmentor.io/solutions/order-summary-card-html-css-css-flexbox-GjoNIsxSS)
 - Live Site URL: [http://Infinity-Mineeva.github.io/Order-Summary-Card/](http://Infinity-Mineeva.github.io/Order-Summary-Card/)
 
 ## My process
