@@ -77,7 +77,7 @@ I like working with Flexbox, so in the future I'll take a shot at using CSS Grid
 
 Thanks for checking out this project! 😃 You can find my profiles at these sites:
 
-- [Personal Portfolio](www.sonjigoodman.com)
+- [Personal Portfolio](https://www.sonjigoodman.com)
 - [Twitter: @IT_Sonji](https://twitter.com/sonji_it)
 - [Frontend Mentor - @infinity-Mineeva](https://www.frontendmentor.io/profile/Infinity-Mineeva)
 
